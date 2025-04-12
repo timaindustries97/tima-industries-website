@@ -11,7 +11,6 @@ const ProductsPage = () => {
 
   useEffect(() => {
     // Fetch the products data
-    debugger
     fetch('/data/products.json')
       .then(response => response.json())
       .then(data => {
@@ -74,7 +73,7 @@ const ProductsPage = () => {
         <div className="container">
           <div className="category-filter">
             <h2>Product Categories</h2>
-            <div className="filter-buttons">
+            {/* <div className="filter-buttons">
               {categories.map((category, index) => (
                 <button 
                   key={index}
@@ -84,7 +83,7 @@ const ProductsPage = () => {
                   {category.charAt(0).toUpperCase() + category.slice(1)}
                 </button>
               ))}
-            </div>
+            </div> */}
           </div>
 
           {loading ? (

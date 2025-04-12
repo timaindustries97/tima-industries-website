@@ -221,6 +221,24 @@
 
 /* Responsive Design */
 @media (max-width: 768px) {
+  .contact-info {
+    text-align: center; /* Center everything on mobile */
+  }
+
+  .info-card {
+    flex-direction: column; /* Stack the icon and content vertically */
+    align-items: center;
+    text-align: center; /* Center text in each card */
+  }
+
+  .icon-container {
+    margin-bottom: 10px; /* Space between icon and content */
+  }
+
+  .company-details {
+    text-align: center; /* Center company details on mobile */
+  }
+  
   .contact-container {
     flex-direction: column;
   }

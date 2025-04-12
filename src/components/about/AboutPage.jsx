@@ -40,12 +40,12 @@ const AboutPage = () => {
                 ensure that our products meet the highest standards.
               </p>
             </div>
-            <div className="about-image">
+            {/* <div className="about-image">
               <img
                 src="/images/factory/about-factory.jpg"
                 alt="Tima Industries Factory"
               />
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
@@ -171,12 +171,12 @@ const AboutPage = () => {
       <section className="section quality-section bg-light">
         <div className="container">
           <div className="quality-grid">
-            <div className="quality-image">
+            {/* <div className="quality-image">
               <img
                 src="/images/factory/quality-check.jpg"
                 alt="Quality Assurance at Tima Industries"
               />
-            </div>
+            </div> */}
             <div className="quality-content">
               <h2>Our Quality Assurance</h2>
               <p>

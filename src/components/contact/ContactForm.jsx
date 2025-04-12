@@ -1,6 +1,7 @@
 // components/ContactForm.jsx
 import React, { useState } from "react";
 import { Send } from "lucide-react";
+import emailjs from "emailjs-com";
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -27,33 +28,44 @@ const ContactForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // In a real application, you would send this data to your backend
-    console.log("Form submitted:", formData);
+    emailjs
+      .send(
+        "service_k7ujy5g",
+        "template_8erqh7h", 
+        formData,
+        "Ds1QURIbn4pZQPFoF"
+      )
+      .then(
+        (result) => {
+          console.log("Email successfully sent!", result.text);
+          setFormStatus({
+            submitted: true,
+            error: false,
+            message:
+              "Thank you for your message! We will get back to you soon.",
+          });
 
-    // Simulating successful form submission
-    setFormStatus({
-      submitted: true,
-      error: false,
-      message: "Thank you for your message! We will get back to you soon.",
-    });
+          setFormData({
+            name: "",
+            email: "",
+            phone: "",
+            subject: "",
+            message: "",
+          });
 
-    // Reset form after submission
-    setFormData({
-      name: "",
-      email: "",
-      phone: "",
-      subject: "",
-      message: "",
-    });
-
-    // Reset form status after 5 seconds
-    setTimeout(() => {
-      setFormStatus({
-        submitted: false,
-        error: false,
-        message: "",
-      });
-    }, 5000);
+          setTimeout(() => {
+            setFormStatus({ submitted: false, error: false, message: "" });
+          }, 5000);
+        },
+        (error) => {
+          console.log("Failed to send email:", error.text);
+          setFormStatus({
+            submitted: true,
+            error: true,
+            message: "Failed to send. Please try again later.",
+          });
+        }
+      );
   };
 
   return (

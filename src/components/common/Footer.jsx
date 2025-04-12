@@ -80,7 +80,7 @@ const Footer = () => {
           <h3>Location</h3>
           <div className="map-container">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.1693102502277!2d88.2784!3d22.5778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0279a33962a399%3A0x8e7ebf9d8b3baec!2sSantragachi%2C%20Howrah%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1681722145317!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3683.681177389081!2d88.30802567530102!3d22.591024679478625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjLCsDM1JzI3LjciTiA4OMKwMTgnMzguMiJF!5e0!3m2!1sen!2sin!4v1744453314622!5m2!1sen!2sin"
               width="100%"
               height="150"
               style={{ border: 0 }}
