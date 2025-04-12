@@ -89,13 +89,6 @@
   }
 }
 
-@media (max-width: 768px) {
-  .product-image img {
-    max-width: 5000px;
-    margin-bottom: 0;
-  }
-}
-
 .clients-section {
   text-align: center;
 }
