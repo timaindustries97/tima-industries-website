@@ -29,7 +29,12 @@ const Slider = () => {
         <div className="slider-item">
           <div
             className="slider-image"
-            style={{ backgroundImage: "url('/images/factory/factory1.jpg')" }}
+            style={{
+              backgroundImage:
+                "linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url('/images/factory/factory1.jpg')",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+            }}
           >
             <div className="slider-content">
               <h1>Quality Industrial Components</h1>
@@ -46,7 +51,12 @@ const Slider = () => {
         <div className="slider-item">
           <div
             className="slider-image"
-            style={{ backgroundImage: "url('/images/factory/factory2.jpg')" }}
+            style={{
+              backgroundImage:
+                "linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url('/images/factory/factory1.jpg')",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+            }}
           >
             <div className="slider-content">
               <h1>Custom Industrial Solutions</h1>
@@ -63,7 +73,12 @@ const Slider = () => {
         <div className="slider-item">
           <div
             className="slider-image"
-            style={{ backgroundImage: "url('/images/factory/factory3.jpg')" }}
+            style={{
+              backgroundImage:
+                "linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url('/images/factory/factory1.jpg')",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+            }}
           >
             <div className="slider-content">
               <h1>Trusted By Industry Leaders</h1>

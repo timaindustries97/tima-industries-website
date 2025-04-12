@@ -11,6 +11,7 @@ const ProductsPage = () => {
 
   useEffect(() => {
     // Fetch the products data
+    debugger
     fetch('/data/products.json')
       .then(response => response.json())
       .then(data => {

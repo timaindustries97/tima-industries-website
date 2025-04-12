@@ -1,4 +1,3 @@
-// src/components/home/ProductCatalog.js
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
@@ -35,19 +34,21 @@ const ProductCatalog = () => {
               {products.map((product, index) => (
                 <div className="product-card" key={index}>
                   <div className="product-image">
-                    <img src={product.images[0]} alt={product.title} />
+                    <img loading="lazy" src={product.images[0]} alt={product.title} />
                   </div>
+
                   <div className="product-info">
                     <h3>{product.title}</h3>
                     <p className="product-capacity">{product.capacity}</p>
-                    <Link
-                      to={`/products#${product.title
-                        .toLowerCase()
-                        .replace(/\s+/g, "-")}`}
-                      className="btn btn-outline"
-                    >
-                      View Details
-                    </Link>
+                    <p className="product-description">{product.description}</p>
+                    <div className="product-action">
+                      <Link
+                        to={`/contact`}
+                        className="btn btn-outline"
+                      >
+                        Order Now
+                      </Link>
+                    </div>
                   </div>
                 </div>
               ))}
