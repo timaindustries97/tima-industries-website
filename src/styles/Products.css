@@ -3,3 +3,10 @@
   gap: 1rem;
   flex-wrap: wrap;
 }
+
+/* Mobile Layout (>=768px) */
+@media (max-width: 768px) {
+  .product-info .btn {
+    width: 100%;
+  }
+}
