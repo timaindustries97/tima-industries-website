@@ -1,10 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-const ProductCard = ({ product, onClick, isActive }) => {
+const ProductCard = ({ product, isActive }) => {
   return (
     <div
       className={`product-card ${isActive ? "active" : ""}`}
-      onClick={onClick}
     >
       <div className="product-image">
         <img loading="lazy" src={product.images[0]} alt={product.title} />
@@ -13,7 +13,9 @@ const ProductCard = ({ product, onClick, isActive }) => {
         <h3>{product.title}</h3>
         <p className="product-capacity">{product.capacity}</p>
         <p className="product-description">{product.description}</p>
-        <button className="btn btn-outline">View Details</button>
+        <Link to={`/contact#contact-us-form`} className="btn btn-outline">
+          Order Now
+        </Link>
       </div>
     </div>
   );

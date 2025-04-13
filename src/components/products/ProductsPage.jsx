@@ -33,30 +33,30 @@ const ProductsPage = () => {
   }, []);
 
   // Extract unique categories from products
-  const categories = ['all', ...new Set(products.map(product => {
-    // Extract category from product title or assign a default category
-    const mainCategory = product.title.split(' ')[0].toLowerCase();
-    return mainCategory;
-  }))];
+  // const categories = ['all', ...new Set(products.map(product => {
+  //   // Extract category from product title or assign a default category
+  //   const mainCategory = product.title.split(' ')[0].toLowerCase();
+  //   return mainCategory;
+  // }))];
 
   // Filter products by category
   const filteredProducts = activeCategory === 'all' 
     ? products 
     : products.filter(product => product.title.toLowerCase().includes(activeCategory));
 
-  const handleProductClick = (product) => {
-    setSelectedProduct(product);
-    // Update URL with product hash
-    window.location.hash = product.title.toLowerCase().replace(/\s+/g, '-');
-    // Scroll to product detail
-    document.getElementById('product-detail').scrollIntoView({ behavior: 'smooth' });
-  };
+  // const handleProductClick = (product) => {
+  //   setSelectedProduct(product);
+  //   // Update URL with product hash
+  //   window.location.hash = product.title.toLowerCase().replace(/\s+/g, '-');
+  //   // Scroll to product detail
+  //   document.getElementById('product-detail').scrollIntoView({ behavior: 'smooth' });
+  // };
 
-  const handleCategoryChange = (category) => {
-    setActiveCategory(category);
-    setSelectedProduct(null);
-    window.location.hash = '';
-  };
+  // const handleCategoryChange = (category) => {
+  //   setActiveCategory(category);
+  //   setSelectedProduct(null);
+  //   window.location.hash = '';
+  // };
 
   return (
     <div className="products-page">
@@ -94,7 +94,6 @@ const ProductsPage = () => {
                 <ProductCard 
                   key={index} 
                   product={product} 
-                  onClick={() => handleProductClick(product)} 
                   isActive={selectedProduct && selectedProduct.title === product.title}
                 />
               ))}
@@ -120,7 +119,7 @@ const ProductsPage = () => {
               Contact us today to discuss your requirements and get a quote.
             </p>
             <div className="inquiry-actions">
-              <a href="/contact" className="btn btn-primary">Request a Quote</a>
+              <a href="/contact#conatct-us-form" className="btn btn-primary">Request a Quote</a>
               <a href="tel:+918961194047" className="btn btn-outline">Call Us</a>
             </div>
           </div>

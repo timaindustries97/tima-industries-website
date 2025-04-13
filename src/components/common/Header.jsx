@@ -27,6 +27,14 @@ const Header = () => {
   return (
     <header className={`header ${scrolled ? "scrolled" : ""}`}>
       <div className="container header-container">
+        <button
+          className="menu-toggle"
+          onClick={toggleMenu}
+          aria-label="Toggle navigation"
+        >
+          <span className={`hamburger ${menuOpen ? "active" : ""}`}></span>
+        </button>
+
         <div className="logo-container">
           <Link to="/" className="logo">
             <img src="/images/logo.svg" alt="Tima Industries Logo" />
@@ -35,14 +43,6 @@ const Header = () => {
         </div>
 
         <div className="nav-container">
-          <button
-            className="menu-toggle"
-            onClick={toggleMenu}
-            aria-label="Toggle navigation"
-          >
-            <span className={`hamburger ${menuOpen ? "active" : ""}`}></span>
-          </button>
-
           <nav className={`nav-menu ${menuOpen ? "active" : ""}`}>
             <ul className="nav-list">
               <li>

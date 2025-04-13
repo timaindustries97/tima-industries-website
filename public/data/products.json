@@ -3,7 +3,7 @@
         "title": "Inner Roller Shaft",
         "description": "The Inner Roller Shaft is the backbone of inner roller — and this one leads the industry in strength, durability, and performance. Crafted from high-grade materials and engineered for a perfect fit, it ensures smooth rotation and stability, even under heavy use. Designed for compatibility with most inner roller tubes, its dust-resistant finish and ergonomic build make it ideal for both professional painters and DIY projects.",
         "capacity": "Diameter: 15mm to 550mm, Length: 100mm to 6000mm",
-        "images": ["/images/products/inner_roller.jpg"]
+        "images": ["/images/products/inner_roller_shaft.jpg"]
     },
     {
         "title": "Inner Roller Tube",
@@ -45,7 +45,7 @@
         "title": "Gear and Worm Shaft",
         "description": "Gear: Rotating toothed component used in mechanical systems to transmit torque. Available in various types like spur, bevel, and helical. Worm Shaft: A screw-like gear transmitting motion at 90° angles, ideal for compact, high-torque applications.",
         "capacity": "Gear Size: 50mm to 800mm, Worm Shaft Diameter: 40mm to 250mm, Length: 100mm to 600mm",
-        "images": ["images/products/gear_worn_shaft.jpg"]
+        "images": ["images/products/gear_worm_shaft.jpg"]
     },
     {
         "title": "Auger",

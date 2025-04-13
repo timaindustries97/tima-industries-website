@@ -69,7 +69,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="contact-form-container">
+    <div className="contact-form-container" id="contact-us-form">
       <h2>Send Us a Message</h2>
       <p>
         Fill out the form below and we'll get back to you as soon as possible.

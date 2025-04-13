@@ -64,7 +64,7 @@ const Slider = () => {
                 Tailored engineering for your specific manufacturing
                 requirements
               </p>
-              <a href="/contact" className="btn btn-primary">
+              <a href="/contact#contact-us-form" className="btn btn-primary">
                 Request Quote
               </a>
             </div>
