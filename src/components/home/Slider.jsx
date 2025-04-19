@@ -53,7 +53,7 @@ const Slider = () => {
             className="slider-image"
             style={{
               backgroundImage:
-                "linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url('/images/factory/factory1.jpg')",
+                "linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url('/images/factory/factory2.jpg')",
               backgroundSize: "cover",
               backgroundPosition: "center",
             }}
@@ -75,7 +75,7 @@ const Slider = () => {
             className="slider-image"
             style={{
               backgroundImage:
-                "linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url('/images/factory/factory1.jpg')",
+                "linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url('/images/factory/factory3.jpg')",
               backgroundSize: "cover",
               backgroundPosition: "center",
             }}
