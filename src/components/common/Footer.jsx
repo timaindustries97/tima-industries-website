@@ -27,6 +27,7 @@ const Footer = () => {
             <strong>GSTIN:</strong> 19BNLPJ5543C1ZY
             <br />
             <strong>UDYAM REG. NO.:</strong> UDYAM-WB-08-0042288
+            <br />
             <strong>D&B D-U-N-S NO.:</strong> 64-178-6287
           </p>
         </div>
