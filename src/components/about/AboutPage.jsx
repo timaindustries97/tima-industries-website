@@ -20,11 +20,12 @@ const AboutPage = () => {
             <div className="about-content">
               <h2>Our Company</h2>
               <p>
-                <strong>TIMA INDUSTRIES</strong> is a Howrah, West Bengal based
-                company and one of the best young and dynamic manufacturers of
-                industrial components. Since our inception, we have been
-                committed to delivering products that exceed industry standards
-                and meet the specific needs of our clients.
+                <strong>TIMA INDUSTRIES</strong> is an <b>ISO 9001:2015</b>{" "}
+                certified company based in Howrah, West Bengal, and one of the
+                best young and dynamic manufacturers of industrial components.
+                Since our inception, we have been committed to delivering
+                products that exceed industry standards and meet the specific
+                needs of our clients.
               </p>
               <p>
                 We specialize in manufacturing and supplying a wide range of
@@ -40,6 +41,7 @@ const AboutPage = () => {
                 ensure that our products meet the highest standards.
               </p>
             </div>
+
             {/* <div className="about-image">
               <img
                 src="/images/factory/about-factory.jpg"

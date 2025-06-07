@@ -8,9 +8,9 @@ const Footer = () => {
         <div className="footer-section company-overview">
           <h3>TIMA INDUSTRIES</h3>
           <p>
-            A Howrah, West Bengal based company manufacturing high-quality
-            industrial rollers, bearing blocks, conveyor pulleys, and more.
-            Quality is the pillar of our success.
+            A Howrah, West Bengal based ISO 9001:2015 certified company
+            manufacturing high-quality industrial rollers, bearing blocks,
+            conveyor pulleys, and more. Quality is the pillar of our success.
           </p>
         </div>
 
@@ -27,6 +27,7 @@ const Footer = () => {
             <strong>GSTIN:</strong> 19BNLPJ5543C1ZY
             <br />
             <strong>UDYAM REG. NO.:</strong> UDYAM-WB-08-0042288
+            <strong>D&B D-U-N-S NO.:</strong> 64-178-6287
           </p>
         </div>
 
