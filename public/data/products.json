@@ -21,7 +21,37 @@
         "title": "Pulley (Driven and Non-Driven)",
         "description": "Driven Pulley: Precision-balanced and high-friction lagged for optimal torque transmission. Non-Driven Pulley: Rugged and low-maintenance, crucial for belt support and tensioning. Both ensure long-lasting performance and efficiency in conveyor and mechanical systems.",
         "capacity": "Diameter: 90mm to 700mm, Length: 500mm to 4500mm",
-        "images": ["images/products/pulley.jpg"]
+        "images": ["images/products/pulley_driven_nondriven.jpg"]
+    },
+    {
+        "title": "Conveyor Roller",
+        "description": "A Conveyor Roller is an essential component used in conveyor systems to support and move materials efficiently along a production or handling line.",
+        "capacity": "Diameter: 25mm to 250mm, Length: 50mm to 4500mm",
+        "images": ["images/products/conveyor_roller.jpg"]
+    },
+    {
+        "title": "Conveyor Roller System",
+        "description": "The Conveyor Roller System is a key component in modern material handling solutions, designed to efficiently transport goods and materials across short or long distances within manufacturing units, warehouses, and logistics centers.",
+        "capacity": "According to demand",
+        "images": ["images/products/conveyor_system.jpg"]
+    },
+    {
+        "title": "Conveyor Belt",
+        "description": "A Conveyor Belt is a vital part of material handling systems, used to move products or bulk materials efficiently from one point to another.",
+        "capacity": "According to demand",
+        "images": ["images/products/conveyor_belt.jpg"]
+    },
+    {
+        "title": "Wear Mesh",
+        "description": "Wear Mesh is a protective screening material used to prevent damage in high-abrasion areas, especially where continuous impact, friction, or wear occurs.",
+        "capacity": "According to demand",
+        "images": ["images/products/wear_mesh.jpg"]
+    },
+    {
+        "title": "Cam Shaft",
+        "description": "The camshaft is a precision-engineered component used in internal combustion engines to control the timing and movement of engine valves. It converts rotary motion into reciprocating motion, allowing the intake and exhaust valves to open and close at the correct intervals for optimal engine performance.",
+        "capacity": "Diameter: 20mm to 350mm, Length: 50mm to 1500mm",
+        "images": ["images/products/cam_shaft.jpg"]
     },
     {
         "title": "Hydraulic Spare Parts",
